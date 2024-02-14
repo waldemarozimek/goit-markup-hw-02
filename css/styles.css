@@ -16,8 +16,9 @@
 }
 
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: var(--white);
+  color:var(--slate);
 }
 ul {
   list-style-type: none;
@@ -36,9 +37,6 @@ ul {
   color: var(--iris);
 }
 
-.navigation-link {
-  text-decoration-line: none;
-}
 .team {
   background-color:#f4f4fd ;
 }
