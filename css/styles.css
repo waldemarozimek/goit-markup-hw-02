@@ -85,22 +85,35 @@ ul {
   background-color: #f4f4fd;
 }
 .titles {
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color:var(--navy-blue);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
 .text {
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--slate)
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.team {
+  background-color: var(--cloud);
 }
 
-
-
-
+.header-team {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--navy-blue);
+}
+.team-card {
+  background-color: var(--white);
+}
 
 
 
