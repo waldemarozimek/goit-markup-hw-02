@@ -35,9 +35,25 @@ ul {
 .web {
   color: var(--iris);
 }
+
 .navigation-link {
-    text-decoration: none;
+  text-decoration-line: none;
 }
-.kontact{
-   text-decoration: none; 
+.team {
+  background-color:#f4f4fd ;
+}
+.footer {
+  background: var(--navy-blue);
+  color: var(--cloud);
+}
+
+.logo-footer {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--cloud);
+  text-decoration: none;
 }
