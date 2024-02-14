@@ -39,29 +39,42 @@ ul {
 .kontact {
   font-style: normal;
 }
+.navigation-link {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  text-decoration: none;
+}
+.navigation-link:hover {
+  color: var(--ocean);
+}
+.navigation-link:active {
+  color: var(--ocean);
+}
+.hero {
+  background-color: var(--navy-blue);
+  /* height: 600px; */
+}
 
-
-
-
-
-
-
-
-
+.header-title {
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  font-weight: 700;
+  color: var(--white);
+}
 
 .team {
   background-color: #f4f4fd;
 }
 
-
-
-
-
-
-
 .footer {
   background: var(--navy-blue);
   color: var(--cloud);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .logo-footer {
   font-family: var(--second-family);
