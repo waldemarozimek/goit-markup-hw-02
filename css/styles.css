@@ -65,8 +65,23 @@ ul {
   font-weight: 700;
   color: var(--white);
 }
-
-.team {
+.main-button {
+  background-color: var(--iris);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  cursor: pointer;
+}
+.main-button:hover {
+  background-color: var(--ocean);
+}
+.main-button:active {
+  background-color: var(--ocean);
+}
+.main-button .team {
   background-color: #f4f4fd;
 }
 
