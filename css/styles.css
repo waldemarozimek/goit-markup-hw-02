@@ -59,7 +59,7 @@ ul {
 
 .header-title {
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   font-weight: 700;
@@ -75,15 +75,15 @@ ul {
   color: var(--white);
   cursor: pointer;
 }
-.main-button:hover {
+.main-button:hover :active {
   background-color: var(--ocean);
 }
-.main-button:active {
+/* .main-button:active {
   background-color: var(--ocean);
-}
-.main-button .team {
+} */
+/* .main-button .team {
   background-color: #f4f4fd;
-}
+} */
 .titles {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -105,7 +105,7 @@ ul {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
@@ -115,22 +115,18 @@ ul {
   background-color: var(--white);
 }
 
-
-
-
-
-
-
-
-
-
 .footer {
   background: var(--navy-blue);
   color: var(--cloud);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.logo-footer {
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
+}
+/* .logo-footer {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
@@ -139,7 +135,7 @@ ul {
   text-transform: uppercase;
   color: var(--iris);
   text-decoration: none;
-}
+} */
 .logo-bright {
   color: var(--cloud);
 }
