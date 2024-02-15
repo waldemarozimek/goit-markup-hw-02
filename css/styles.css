@@ -61,7 +61,7 @@ ul {
 .kontact-list:hover {
   color: var(--ocean);
 }
-.kontact-list:active {
+.kontact-list:focus {
   color: var(--ocean);
 }
 
@@ -89,13 +89,13 @@ ul {
 .main-button:hover {
   background-color: var(--ocean);
 }
-.main-button:active {
+.main-button:focus {
   background-color: var(--ocean);
 }
-/* .main-button:hover {
+.main-button:hover {
   color: var(--ocean);
-} */
-.main-button:active {
+}
+.main-button:focus {
   color: var(--ocean);
 }
 .titles {
