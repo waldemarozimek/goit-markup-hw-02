@@ -14,7 +14,6 @@
   --white: #ffffff;
   --dairy: #fcfcfc;
 }
-
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--white);
@@ -54,9 +53,7 @@ ul {
 }
 .hero {
   background-color: var(--navy-blue);
-  /* height: 600px; */
 }
-
 .header-title {
   font-size: 56px;
   line-height: 1.07;
@@ -75,15 +72,12 @@ ul {
   color: var(--white);
   cursor: pointer;
 }
-.main-button:hover :active {
+.main-button:hover {
   background-color: var(--ocean);
 }
-/* .main-button:active {
+.main-button:active {
   background-color: var(--ocean);
-} */
-/* .main-button .team {
-  background-color: #f4f4fd;
-} */
+}
 .titles {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -100,7 +94,6 @@ ul {
 .team {
   background-color: var(--cloud);
 }
-
 .header-team {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -114,7 +107,6 @@ ul {
 .team-card {
   background-color: var(--white);
 }
-
 .footer {
   background: var(--navy-blue);
   color: var(--cloud);
@@ -126,16 +118,6 @@ ul {
   letter-spacing: 0.02em;
   color: var(--cloud);
 }
-/* .logo-footer {
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--iris);
-  text-decoration: none;
-} */
 .logo-bright {
   color: var(--cloud);
 }
