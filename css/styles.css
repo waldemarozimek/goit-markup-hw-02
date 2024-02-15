@@ -44,7 +44,7 @@ ul {
 }
 .navigation-link:hover {
   color: var(--ocean);
-}
+} 
 .navigation-link:active {
   color: var(--ocean);
 }
@@ -92,9 +92,9 @@ ul {
 .main-button:active {
   background-color: var(--ocean);
 }
-.main-button:hover {
+/* .main-button:hover {
   color: var(--ocean);
-}
+} */
 .main-button:active {
   color: var(--ocean);
 }
