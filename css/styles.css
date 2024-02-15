@@ -45,7 +45,7 @@ ul {
 .navigation-link:hover {
   color: var(--ocean);
 } 
-.navigation-link:active {
+.navigation-link:focus {
   color: var(--ocean);
 }
 .kontact {
