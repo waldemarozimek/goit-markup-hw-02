@@ -35,9 +35,6 @@ ul {
 .logo-dark {
   color: var(--navy-blue);
 }
-.kontact {
-  font-style: normal;
-}
 .navigation-link {
   font-weight: 500;
   line-height: 1.5;
@@ -51,6 +48,22 @@ ul {
 .navigation-link:active {
   color: var(--ocean);
 }
+.kontact {
+  font-style: normal;
+}
+.kontact-list {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+/* .kontact-list:hover {
+  color: var(--ocean);
+}
+.kontact-list:active {
+  color: var(--ocean);
+} */
+
 .hero {
   background-color: var(--navy-blue);
 }
@@ -77,6 +90,12 @@ ul {
 }
 .main-button:active {
   background-color: var(--ocean);
+}
+.main-button:hover {
+  color: var(--ocean);
+}
+.main-button:active {
+  color: var(--ocean);
 }
 .titles {
   font-family: 'Roboto', sans-serif;
