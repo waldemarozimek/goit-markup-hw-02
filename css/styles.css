@@ -56,13 +56,14 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  text-decoration: none;
 }
-/* .kontact-list:hover {
+.kontact-list:hover {
   color: var(--ocean);
 }
 .kontact-list:active {
   color: var(--ocean);
-} */
+}
 
 .hero {
   background-color: var(--navy-blue);
